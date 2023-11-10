@@ -1,1 +1,43 @@
-git comandos 1,2,3
+			UNIVERSIDAD DE LAS FUERZAS ARMADAS - ESPE
+			PROGRAMACION ORIENTADA A OBJETOS
+NOMBRE: JUAN PABLO CANO				
+FECHA: 09-11-2023				NRC: 13930
+
+git config --global user.name “Su nombre”: establezca su nombre de usuario.
+
+git config --global user.email “su@email.com”: configura tu dirección de correo electrónico.
+
+git init: inicia un nuevo repositorio local.
+
+git clone: ​​Clona un repositorio remoto en tu computadora local.
+
+git add: Agrega cambios al área de preparación.
+
+git add. o git add --all: Agrega todos los cambios al área de preparación.
+
+git reset: Elimina un archivo del área de preparación.
+
+git status: muestra el estado de los archivos en su directorio de trabajo.
+
+git commit -m “mensaje de confirmación”: confirma con un mensaje descriptivo.
+
+git branch: muestra todas las ramas locales.
+
+git branch: crea una nueva rama.
+
+git checkout: cambia a una rama existente.
+
+git checkout -b: crea una nueva rama y cambia a ella.
+
+git merge: fusiona una rama con la rama actual.
+
+git pull: extrae cambios de un repositorio remoto.
+
+git fetch: recupera cambios de un repositorio remoto sin fusionarlos.
+
+git push origin: envía cambios a un repositorio remoto.
+
+git log: muestra el historial de confirmaciones.
+
+git log --oneline: muestra el historial de confirmaciones en una línea por confirmación.
+
