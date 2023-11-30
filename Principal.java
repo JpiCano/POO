@@ -38,15 +38,15 @@ public class Principal {
                     opcion2=leer.nextInt();
                         switch (opcion2){
                             case 1:
-                                System.out.println("HOLA MUNDO");
+                                System.out.println("");
                                 
                                 break;
                             case 2:
-                                System.out.println("ronny puto");
+                                System.out.println("");
                                 break;
                                 
                             case 3:
-                                System.out.println("jpi dios");
+                                System.out.println("");
                                 break;
                         }
                     break;
@@ -60,15 +60,15 @@ public class Principal {
                     opcion2=leer.nextInt();
                         switch (opcion2){
                             case 1:
-                                System.out.println("HOLA MUNDO");
+                                System.out.println("");
                                 
                                 break;
                             case 2:
-                                System.out.println("ronny puto");
+                                System.out.println("");
                                 break;
                                 
                             case 3:
-                                System.out.println("jpi dios");
+                                System.out.println("");
                                 break;
                         }
                     break;
@@ -82,15 +82,15 @@ public class Principal {
                     opcion2=leer.nextInt();
                         switch (opcion2){
                             case 1:
-                                System.out.println("HOLA MUNDO");
+                                System.out.println("");
                                 
                                 break;
                             case 2:
-                                System.out.println("ronny puto");
+                                System.out.println("");
                                 break;
                                 
                             case 3:
-                                System.out.println("jpi dios");
+                                System.out.println("");
                                 break;
                         }
                     break;
