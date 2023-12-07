@@ -1,0 +1,51 @@
+FOR EACH
+El foreach no es un bucle
+De primeras la principal diferencia la tenemos en la propia definición, ya que el foreach no es un bucle sino un constructor, el cual solo puede iterar en arrays y objetos, en cambio el for es un bucle, es decir, se repite tantas veces como nosotros queramos.
+
+El foreach no puede recorrer cadenas de texto.
+En uno de los ejemplos de uso de for, veíamos como podíamos recorrer carácter a carácter una cadena de texto, en cambio con el foreach no podemos hacerlo
+
+En el foreach no es necesario poner el tamaño del array.
+En el uso del for, a la hora de recorrer un array, tenemos que especificar hasta que posición tenemos que recorrerla, en cambio en foreach nos lo recorre del principio a fin. Esto supone una ventaja sobre el for, ya que en este si no especificamos bien el tamaño podemos obtener un error.
+Modificar los valores de un array/objeto
+Como vimos en la entrada del foreach, apriori no se pueden modificar los elementos de un array usando el foreach, y en realidad si que se puede hacer pasando el valor por referencia.
+
+Recorrer un array al revés
+Si vemos el funcionamiento del foreach, este realiza una copia del array, sitúa el puntero en el primer elemento y lo recorre hasta el final, según esto no seria posible recorrer un array de forma inversa, algo que con el bucle for, podríamos hacerlo de una manera sencilla, pero podemos hacerlo también con el foreach usando la función array_reverse dentro de la definición del foreach
+
+Ejemplo
+
+$array = array(1, 2, 3, 4);
+foreach (array_reverse($cadena) as $var) {
+}
+
+En este ejemplo se nos mostraría los valores de la $array empezando desde el final, y si mostramos $array una vez finalizado, podremos ver que los valores no han modificado su orden, ya que el array_reverse se aplica solo a la copia de $array.
+
+FOR
+La instrucción for permite repetir una instrucción o una instrucción compuesta un número especificado de veces. El cuerpo de una instrucción for se ejecuta cero o más veces hasta que una condición opcional sea false. Puede utilizar expresiones opcionales dentro de la instrucción for para inicializar y cambiar valores durante la ejecución de la instrucción for.
+
+int main()
+{
+   char* line = "H e  \tl\tlo World\0";
+   int space = 0;
+   int tab = 0;
+   int i;
+   int max = strlen(line);
+   for (i = 0; i < max; i++ )
+   {
+      if ( line[i] == ' ' )
+      {
+          space++;
+      }
+      if ( line[i] == '\t' )
+      {
+          tab++;
+      }
+   }
+
+   printf("Number of spaces: %i\n", space);
+   printf("Number of tabs: %i\n", tab);
+   return 0;
+}
+
+ 
